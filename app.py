@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 
 #  Licensed under the Apache License, Version 2.0 (the "License"); you may
@@ -44,7 +43,7 @@ app = Flask(__name__)
 
 # get channel_secret and channel_access_token from your environment variable
 channel_secret = '65348d8c44aebcb7219fb72173948348'
-channel_access_token = "s//zcdFrDph+6ez1oNhNL2Bz72L81N5MboXcT+6ntt2FEjHCTfg+3fliwWAcrb9hQaRCDiLICDMLkdJ47PymdXLfw0YVJSUZhyQKJ8Tt/PSTlHpCh/PWDd6/4vcSC/F4RtxP+1nSg12z/7NRgPxgsQdB04t89/1O/w1cDnyilFU="
+channel_access_token = 's//zcdFrDph+6ez1oNhNL2Bz72L81N5MboXcT+6ntt2FEjHCTfg+3fliwWAcrb9hQaRCDiLICDMLkdJ47PymdXLfw0YVJSUZhyQKJ8Tt/PSTlHpCh/PWDd6/4vcSC/F4RtxP+1nSg12z/7NRgPxgsQdB04t89/1O/w1cDnyilFU='
 if channel_secret is None:
     print('Specify LINE_CHANNEL_SECRET as environment variable.')
     sys.exit(1)
