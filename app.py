@@ -67,6 +67,10 @@ def make_static_tmp_dir():
             pass
         else:
             raise
+            
+@app.route("/", method=['GET'])
+def index():
+    return 'Hello World'
 
 
 @app.route("/callback", methods=['POST'])
